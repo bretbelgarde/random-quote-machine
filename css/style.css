@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+body{
+  margin:40px auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size:18px;
+  color:#369;
+  padding:0 10px;
+  background-color:#eee;
+}
+
+h1,h2,h3{
+  line-height:1.2
+}
+
+#quote-output{
+  margin:45px 0;
+  padding:0.5em 40px;
+  max-width: 650px;
+  background-color: #DEDEFF;
+  border-radius:12px;
+  height:200px;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-style: italic;
+  margin 0.25em auto;
+  padding: 0.25em 0 0.25em 40px;
+  line-height:1.5;
+  position: relative;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 3em;
+  position: absolute;
+  left: -10px; top: -10px;
+  color: #258;
+}
+
+blockquote cite {
+  color: #258;
+  font-size:18px;
+  display: block;
+  margin-top:5px;
+  text-align:right;
+  font-weight:bold;
+}
+
+blockquote cite:before{content: "\2014 \2009"}
+.center{text-align:center;}
+.fancy{font-family: 'Sigmar One', arial, sans-serif;}
+.shadow{text-shadow: 4px 4px 8px black;}
+.phat-border{
+  border: 8px solid #369;
+  border-radius:16px;
+  padding: 1em;
+  box-shadow: 4px 4px 8px 1px rgba(0,0,0,0.4)
+}
+
+.phat-border > * {
+  margin:0; padding:0;
+}
+
+#action-button {
+  width:100%;
+  padding:10px 0;
+  border: 4px solid #369;
+  border-radius:8px;
+  font-size:1.2em;
+  background-color: #369;
+  color: #fff;
+  cursor: pointer;
+}
+
+#tweetit{
+  text-align:right;
+}
